@@ -10,6 +10,6 @@
 ## Source
 
 <ol>
-  <li>Presentational/Stateless components present are in folder - **src/components**</li>
-  <li>Hooks are present in folder - **src/hooks**</li>
+  <li>Presentational/Stateless components present are in folder - src/components</li>
+  <li>Hooks are present in folder - src/hooks</li>
 </ol>
