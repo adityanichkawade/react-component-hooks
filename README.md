@@ -10,7 +10,7 @@
 ## Source
 
 <ol>
-  <li>Presentational/Stateless components present are in folder - src/components</li>
-  <li>Hooks are present in folder - src/hooks</li>
-  <li>Examples of combining hooks and components are present in folder - src/examples</li>
+  <li>Presentational/Stateless components present are in folder - <strong>src/components</strong></li>
+  <li>Hooks are present in folder - <strong>src/hooks</strong></li>
+  <li>Examples of combining hooks and components are present in folder - <strong>src/examples</strong></li>
 </ol>
