@@ -12,5 +12,5 @@
 <ol>
   <li>Presentational/Stateless components present are in folder - src/components</li>
   <li>Hooks are present in folder - src/hooks</li>
-  <li>Examples of combining hooks and components are present in folder - src/hooks</li>
+  <li>Examples of combining hooks and components are present in folder - src/examples</li>
 </ol>
