@@ -1,0 +1,19 @@
+.accordionButton {
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0.7rem 1rem;
+  width: 100%;
+  text-align: left;
+  color: white;
+  background-color: #6699cc;
+}
+
+.accordionButton:after {
+  content: "\25BA";
+  font-size: 1rem;
+  float: right;
+}
+
+.accordionButtonActive:after {
+  content: "\25BC";
+}

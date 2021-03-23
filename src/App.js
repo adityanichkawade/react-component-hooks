@@ -1,11 +1,5 @@
-import { Checkbox } from "./examples";
-
 function App() {
-  return (
-    <div className="App">
-      <Checkbox />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
