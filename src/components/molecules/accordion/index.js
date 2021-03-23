@@ -9,7 +9,10 @@ const Accordion = ({ className, onAccordionClick, items, ...props }) => {
     <div className={componentClassName} {...props}>
       {items.map((item) => (
         <>
-          <AccordionButton onClick={onAccordionClick} isActive={item.isActive}>
+          <AccordionButton
+            onClick={(e) => onAccordionClick(e, item)}
+            isActive={item.isActive}
+          >
             {item.title}
           </AccordionButton>
           {item.isActive && <AccordionPanel>{item.component}</AccordionPanel>}

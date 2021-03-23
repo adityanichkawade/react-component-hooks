@@ -1,20 +1,20 @@
 import { useReducer } from "react";
 
 const reducer = (state, action) => {
-  const { find, update } = action;
-  const [findKey, findValue] = Object.entries(find)[0];
-  const [updateKey, updateValue] = Object.entries(update)[0];
+  const { findKey, findValue, updateKey, updateValue, defaultValue } = action;
 
   return state.map((item) =>
-    item[findKey] === findValue ? { ...item, [updateKey]: updateValue } : item
+    item[findKey] === findValue
+      ? { ...item, [updateKey]: updateValue }
+      : { ...item, [updateKey]: defaultValue }
   );
 };
 
 function useToggles(aItems) {
   const [toggleItems, dispatch] = useReducer(reducer, aItems);
-  const doToggles = (find, update) => dispatch({ find, update });
+  const doToggle = (config) => dispatch(config);
 
-  return { toggleItems, doToggles };
+  return { toggleItems, doToggle };
 }
 
 export default useToggles;
