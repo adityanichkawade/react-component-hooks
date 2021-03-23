@@ -1,4 +1,3 @@
-import "./App.css";
 import { Checkbox } from "./examples";
 
 function App() {
