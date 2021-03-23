@@ -1,0 +1,9 @@
+.atomInput {
+  border: 1px solid #737373;
+  padding: 0.625rem, 0, 0.625rem, 1rem;
+  font-size: 16px;
+}
+
+.atomInput::placeholder {
+  color: #b2b2b2;
+}

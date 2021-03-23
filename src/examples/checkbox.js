@@ -1,5 +1,5 @@
 import React from "react";
-import { Checkbox as CheckboxPresenter } from "../components";
+import { Checkbox as CheckboxPresenter } from "../components/atoms";
 import { useToggle } from "../hooks";
 
 const Checkbox = () => {
