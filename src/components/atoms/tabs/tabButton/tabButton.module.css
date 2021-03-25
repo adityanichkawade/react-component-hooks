@@ -1,0 +1,17 @@
+.tabButton {
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  background-color: inherit;
+  font-size: inherit;
+  padding: 0.7rem 1rem;
+}
+
+.tabButton:hover {
+  color: #6699cc;
+}
+
+.tabButtonActive {
+  color: #6699cc;
+  border-bottom: 2px solid #6699cc;
+}

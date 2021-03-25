@@ -10,11 +10,11 @@ const reducer = (state, action) => {
   );
 };
 
-function useToggles(aItems) {
+function useToggleList(aItems) {
   const [toggleItems, dispatch] = useReducer(reducer, aItems);
   const doToggle = (config) => dispatch(config);
 
   return { toggleItems, doToggle };
 }
 
-export default useToggles;
+export default useToggleList;

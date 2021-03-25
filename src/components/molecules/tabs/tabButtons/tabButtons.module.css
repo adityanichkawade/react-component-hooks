@@ -1,0 +1,8 @@
+.tabButtons {
+  font-size: 0.9rem;
+  text-align: left;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border-bottom: 1px solid lightgray;
+}

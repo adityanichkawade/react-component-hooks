@@ -1,2 +1,2 @@
 export { default as useToggle } from "./useToggle";
-export { default as useToggles } from "./useToggles";
+export { default as useToggleList } from "./useToggleList";

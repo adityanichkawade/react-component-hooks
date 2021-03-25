@@ -1,6 +1,6 @@
 import React from "react";
 import classNames from "classnames";
-import { AccordionButton, AccordionPanel } from "../../atoms/accordion";
+import { AccordionButton, AccordionPanel } from "../../atoms";
 import style from "./accordion.module.css";
 
 const Accordion = ({ className, onAccordionClick, items, ...props }) => {

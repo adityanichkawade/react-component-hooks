@@ -13,3 +13,8 @@ button {
   border: none;
   outline: none;
 }
+
+.App {
+  max-width: 1140px;
+  margin: auto;
+}

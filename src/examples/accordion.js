@@ -1,6 +1,6 @@
 import React from "react";
-import { useToggles } from "../hooks";
-import { Accordion } from "../components/molecules";
+import { useToggleList } from "../hooks";
+import { Accordion as AccordionPresenter } from "../components/molecules";
 
 const items = [
   {
@@ -23,8 +23,8 @@ const items = [
   },
 ];
 
-const AccordionExample = () => {
-  const { toggleItems, doToggle } = useToggles(items);
+const Accordion = () => {
+  const { toggleItems, doToggle } = useToggleList(items);
   const onAccordionClick = (e, item) => {
     doToggle({
       findKey: "id",
@@ -35,7 +35,12 @@ const AccordionExample = () => {
     });
   };
 
-  return <Accordion items={toggleItems} onAccordionClick={onAccordionClick} />;
+  return (
+    <AccordionPresenter
+      items={toggleItems}
+      onAccordionClick={onAccordionClick}
+    />
+  );
 };
 
-export default AccordionExample;
+export default Accordion;
