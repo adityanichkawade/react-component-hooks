@@ -5,18 +5,21 @@ import { Accordion } from "../components/molecules";
 const items = [
   {
     id: 1,
+    title: "Accordion 1",
     isActive: true,
-    content: <h1>Panel Content</h1>,
+    content: <div>Panel Content</div>,
   },
   {
     id: 2,
+    title: "Accordion 2",
     isActive: false,
-    content: <h1>Panel Content</h1>,
+    content: <div>Panel Content</div>,
   },
   {
     id: 3,
+    title: "Accordion 3",
     isActive: false,
-    content: <h1>Panel Content</h1>,
+    content: <div>Panel Content</div>,
   },
 ];
 
@@ -27,7 +30,7 @@ const AccordionExample = () => {
       findKey: "id",
       findValue: item.id,
       updateKey: "isActive",
-      updateValue: true,
+      updateValue: !item.isActive,
       defaultValue: false,
     });
   };

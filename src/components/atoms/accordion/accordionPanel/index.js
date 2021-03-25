@@ -1,10 +1,14 @@
 import React from "react";
 import classNames from "classnames";
-import style from "./accordionButton.style.css";
+import style from "./accordionPanel.module.css";
 
-const AccordionPanel = ({ className, ...props }) => {
+const AccordionPanel = ({ className, children, ...props }) => {
   const componentClassName = classNames(style.accordionPanel, className);
-  return <div classNames={componentClassName} {...props} />;
+  return (
+    <div className={componentClassName} {...props}>
+      {children}
+    </div>
+  );
 };
 
 export default AccordionPanel;
