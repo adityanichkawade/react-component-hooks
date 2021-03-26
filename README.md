@@ -11,7 +11,7 @@
 
 <ul>
   <li>Presentational/Stateless components present are in folder - <strong>src/components</strong>.</li>
-  <li>Trying to following atomic design principles https://bradfrost.com/blog/post/atomic-web-design/</li>
+  <li>Trying to following <a href="https://bradfrost.com/blog/post/atomic-web-design/">Atomic Design</a> principles.</li>
   <li>Components are divided into <strong>atoms</strong>, <strong>molecules</strong>, <strong>organisms</strong>.</li>
   <li>Hooks are present in folder - <strong>src/hooks</strong>.</li>
   <li>Examples of combining hooks and components are present in folder - <strong>src/examples</strong>.</li>
