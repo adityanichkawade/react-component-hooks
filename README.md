@@ -16,3 +16,11 @@
   <li>Hooks are present in folder - <strong>src/hooks</strong>.</li>
   <li>Examples of combining hooks and components are present in folder - <strong>src/examples</strong>.</li>
 </ul>
+
+## Hooks and applicable components
+
+| Hooks      | Applicable Components | Description     |
+| :---        |    :----:   |          ---: |
+| useToggle      | Modal Dialog       | As these components has two states true or false   |
+| useToggleList   | Accordion, Tabs   | As it has collection of states each on and off and we have to make one of them true rest are off |
+
