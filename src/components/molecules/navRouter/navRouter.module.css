@@ -1,0 +1,13 @@
+.navigationRouter {
+  border: 1px solid lightgray;
+}
+
+.navigationRouterList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigationRouterListItem {
+  margin-bottom: 1rem;
+}

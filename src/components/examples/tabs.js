@@ -1,6 +1,6 @@
 import React from "react";
-import { useToggleList } from "../hooks";
-import { Tabs as TabsPresenter } from "../components/molecules";
+import { useToggleList } from "../../hooks";
+import { Tabs as TabsPresenter } from "../molecules";
 
 const items = [
   {

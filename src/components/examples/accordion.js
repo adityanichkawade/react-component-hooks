@@ -1,6 +1,6 @@
 import React from "react";
-import { useToggleList } from "../hooks";
-import { Accordion as AccordionPresenter } from "../components/molecules";
+import { useToggleList } from "../../hooks";
+import { Accordion as AccordionPresenter } from "../molecules";
 
 const items = [
   {

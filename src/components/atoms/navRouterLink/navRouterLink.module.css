@@ -1,0 +1,15 @@
+.navRouterLink {
+  display: block;
+}
+
+.navRouterLink:link,
+.navRouterLink:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navRouterLink:hover,
+.navRouterLink:active {
+  color: inherit;
+  text-decoration: underline;
+}

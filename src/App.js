@@ -1,15 +1,19 @@
-import { Accordion, Tabs } from "./examples";
-function App() {
-  return (
-    <div className="App">
+import { NavRouter } from "./components/molecules";
+import Routes from "./routes";
+import routesConfig from "./routesConfig";
+
+const App = () => (
+  <>
+    <header className="appHeader">
       <h1>Resuable hooks and their applications</h1>
-      <h2>useToggleList()</h2>
-      <h3>Accordion</h3>
-      <Accordion />
-      <h3>Tabs</h3>
-      <Tabs />
-    </div>
-  );
-}
+    </header>
+    <aside className="appNav">
+      <NavRouter items={routesConfig} />
+    </aside>
+    <main className="appMain">
+      <Routes items={routesConfig}></Routes>
+    </main>
+  </>
+);
 
 export default App;
