@@ -6,12 +6,20 @@ body {
 body,
 button {
   font-size: 1rem;
-  color: #212529;
+  color: #202124;
+}
+
+body {
+  background-color: #fcfcfc;
 }
 
 button {
   border: none;
   outline: none;
+}
+
+hr {
+  margin-top: 1rem;
 }
 
 .appMain,
