@@ -1,9 +1,8 @@
 import React from "react";
 import classNames from "classnames";
 import { TabButton } from "../../../atoms";
-import style from "./tabButtons.module.css";
 const TabButtons = ({ className, children, items, onTabClick, ...props }) => {
-  const componentClassName = classNames(style.tabButtons, className);
+  const componentClassName = classNames("tabButtons", className);
   return (
     <div className={componentClassName}>
       {items.map((item) => (

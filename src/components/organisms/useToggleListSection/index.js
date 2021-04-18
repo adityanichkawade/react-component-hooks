@@ -3,11 +3,10 @@ import { Tabs, Accordion } from "../../examples";
 
 const UseToggleListSection = () => (
   <section>
-    <h2>useToggleList()</h2>
-    <h3>Accordion</h3>
+    <h2>Accordion</h2>
     <Accordion />
     <hr />
-    <h3>Tabs</h3>
+    <h2>Tabs</h2>
     <Tabs />
   </section>
 );

@@ -1,10 +1,9 @@
 import React from "react";
 import classNames from "classnames";
 import { AccordionButton, AccordionPanel } from "../../atoms";
-import style from "./accordion.module.css";
 
 const Accordion = ({ className, onAccordionClick, items, ...props }) => {
-  const componentClassName = classNames(style.accordion, className);
+  const componentClassName = classNames("accordion", className);
   return (
     <div className={componentClassName} {...props}>
       {items.map((item) => (

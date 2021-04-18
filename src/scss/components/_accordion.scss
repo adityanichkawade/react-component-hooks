@@ -1,3 +1,13 @@
+.accordion {
+  padding: 0;
+  margin: 0;
+}
+
+.accordionPanel {
+  border: 1px solid #6699cc;
+  padding: 1rem;
+}
+
 .accordionButton {
   cursor: pointer;
   font-size: 0.9rem;

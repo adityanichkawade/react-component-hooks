@@ -1,9 +1,8 @@
 import React from "react";
 import classNames from "";
-import style from "./input.style.css";
 
 const Input = ({ className, ...props }) => {
-  const componentClassName = classNames(style.atomInput, className);
+  const componentClassName = classNames("atomInput", className);
   return <input classNames={componentClassName} {...props} />;
 };
 

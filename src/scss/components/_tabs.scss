@@ -1,3 +1,12 @@
+.tabs {
+  margin: 0;
+  padding: 0;
+}
+
+.tabPanel {
+  padding: 1rem;
+}
+
 .tabButton {
   text-align: center;
   display: inline-block;
@@ -14,4 +23,13 @@
 .tabButtonActive {
   color: #6699cc;
   border-bottom: 2px solid #6699cc;
+}
+
+.tabButtons {
+  font-size: 0.9rem;
+  text-align: left;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border-bottom: 1px solid lightgray;
 }
