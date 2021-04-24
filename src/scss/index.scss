@@ -1,9 +1,10 @@
-@import "./abstract/base.scss";
+@import "./abstract/base";
 
-@import "./components/accordion.scss";
-@import "./components/tabs.scss";
+@import "./components/accordion";
+@import "./components/tabs";
 @import "./components/navRouter";
-@import "./components/button.scss";
-@import "./components/input.scss";
+@import "./components/button";
+@import "./components/input";
+@import "./components/modal";
 
-@import "./pages/app.scss";
+@import "./pages/app";

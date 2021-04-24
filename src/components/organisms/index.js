@@ -1,1 +1,1 @@
-export { default as UseToggleListSection } from "./useToggleListSection";
+export { default as ComponentList } from "./componentList";

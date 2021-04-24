@@ -1,7 +1,3 @@
-.navigationRouter {
-  border: 1px solid lightgray;
-}
-
 .navigationRouterList {
   list-style: none;
   margin: 0;
@@ -12,18 +8,14 @@
   margin-bottom: 1rem;
 }
 
-.navRouterLink {
-  display: block;
-}
-
-.navRouterLink:link,
-.navRouterLink:visited {
+.navRouterLink a:link,
+a:visited {
   color: inherit;
   text-decoration: none;
 }
 
-.navRouterLink:hover,
-.navRouterLink:active {
+.navRouterLink a:hover,
+a:active {
   color: inherit;
   text-decoration: underline;
 }

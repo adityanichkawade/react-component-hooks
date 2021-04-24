@@ -1,10 +1,15 @@
-hr {
-  margin-top: 1rem;
+.appMain {
+  margin-left: 11rem;
 }
 
-.appMain,
-.appHeader {
-  margin-left: 11rem;
+.appHeader h1 {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: normal;
+  background: gray;
+  color: white;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
 }
 
 .appNav {

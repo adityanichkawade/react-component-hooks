@@ -1,6 +1,5 @@
 import { NavRouter } from "./components/molecules";
-import Routes from "./routes";
-import routesConfig from "./routesConfig";
+import { Routes, config as routesConfig } from "./routes";
 
 const App = () => (
   <>
