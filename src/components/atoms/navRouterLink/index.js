@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import classNames from "classnames";
 
 const NavRouterLink = ({ className, children, to }) => {
-  const componentClassName = classNames("navRouterLink", className);
+  const componentClassName = classNames("hks_navRouterLink", className);
   return (
     <div className={componentClassName}>
       <Link to={to}>{children}</Link>

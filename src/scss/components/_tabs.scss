@@ -1,35 +1,37 @@
-.tabs {
-  margin: 0;
-  padding: 0;
-}
+.hks {
+  &_tabs {
+    margin: 0;
+    padding: 0;
+  }
 
-.tabPanel {
-  padding: 1rem;
-}
+  &_tabPanel {
+    padding: 1rem;
+  }
 
-.tabButton {
-  text-align: center;
-  display: inline-block;
-  cursor: pointer;
-  background-color: inherit;
-  font-size: inherit;
-  padding: 0.7rem 1rem;
-}
+  &_tabButton {
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    background-color: inherit;
+    font-size: inherit;
+    padding: 0.7rem 1rem;
+  }
 
-.tabButton:hover {
-  color: #6699cc;
-}
+  &_tabButton:hover {
+    color: #6699cc;
+  }
 
-.tabButtonActive {
-  color: #6699cc;
-  border-bottom: 2px solid #6699cc;
-}
+  &_tabButtonActive {
+    color: #6699cc;
+    border-bottom: 2px solid #6699cc;
+  }
 
-.tabButtons {
-  font-size: 0.9rem;
-  text-align: left;
-  background-color: transparent;
-  color: white;
-  outline: none;
-  border-bottom: 1px solid lightgray;
+  &_tabButtons {
+    font-size: 0.9rem;
+    text-align: left;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border-bottom: 1px solid lightgray;
+  }
 }

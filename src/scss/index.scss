@@ -1,4 +1,6 @@
-@import "./abstract/base";
+@import "./abstracts/variables";
+
+@import "./base/reset";
 
 @import "./components/accordion";
 @import "./components/tabs";

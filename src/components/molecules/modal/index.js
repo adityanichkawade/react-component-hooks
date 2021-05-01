@@ -1,33 +1,22 @@
 import React from "react";
 import classNames from "classnames";
+import { ModalHeader, ModalBody, ModalFooter, Button } from "../../atoms";
 
-const Modal = ({
-  className,
-  children,
-  show,
-  title,
-  titleClose,
-  onCloseClick,
-}) => {
-  const componentClassName = classNames("modal", className);
+const Modal = ({ className, children, title, titleClose, onCloseClick }) => {
+  const componentClassName = classNames("hks_modal", className);
   return (
     <section
       onClick={(e) => e.target === e.currentTarget && onCloseClick(e)}
       className={componentClassName}
     >
-      <div className="modalContent">
-        <div className="modalHeader">
-          <span onClick={onCloseClick} className="modalIconClose">
-            &times;
-          </span>
-          <h1>{title}</h1>
-        </div>
-        <div className="modalBody">{children}</div>
-        <div className="modalFooter">
-          <button onClick={onCloseClick} className="btn">
+      <div className="hks_modalContent">
+        <ModalHeader title={title} onCloseClick={onCloseClick} />
+        <ModalBody>{children}</ModalBody>
+        <ModalFooter>
+          <Button onClick={onCloseClick} className="hks_btn">
             {titleClose}
-          </button>
-        </div>
+          </Button>
+        </ModalFooter>
       </div>
     </section>
   );

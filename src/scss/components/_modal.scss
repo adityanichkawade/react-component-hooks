@@ -1,4 +1,6 @@
-.modal {
+$modal-overlay-bg: rgba(0, 0, 0, 0.4);
+
+.hks_modal {
   position: fixed;
   z-index: 1;
   left: 0;
@@ -8,36 +10,36 @@
   overflow: auto;
   color: white;
   background: rgba(0, 0, 0, 0.4);
-}
 
-.modalContent {
-  padding: 0;
-  margin: 0 auto;
-  width: 80%;
-  margin-top: 6rem;
-  background-color: white;
-}
+  &_modalContent {
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 6rem;
+    background-color: white;
+  }
 
-.modalHeader {
-  background-color: #6699cc;
-  padding: 0.2rem 1rem;
-}
+  &_modalHeader {
+    background-color: #6699cc;
+    padding: 0.2rem 1rem;
+  }
 
-.modalBody {
-  padding: 0.5rem;
-  min-height: 32px;
-}
+  &_modalBody {
+    padding: 0.5rem;
+    min-height: 32px;
+  }
 
-.modalFooter {
-  display: flex;
-  padding: 1rem 0.5rem;
-  justify-content: flex-end;
-}
+  &_modalFooter {
+    display: flex;
+    padding: 1rem 0.5rem;
+    justify-content: flex-end;
+  }
 
-.modalIconClose {
-  color: white;
-  float: right;
-  font-size: 1.75rem;
-  font-weight: bold;
-  cursor: pointer;
+  &_modalIconClose {
+    color: white;
+    float: right;
+    font-size: 1.75rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
 }

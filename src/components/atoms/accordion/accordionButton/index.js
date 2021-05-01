@@ -3,7 +3,7 @@ import classNames from "classnames";
 
 const AccordionButton = ({ className, children, isActive, ...props }) => {
   const componentClassName = classNames(
-    "accordionButton",
+    "hks_accordionButton",
     { accordionButtonActive: isActive },
     className
   );

@@ -1,21 +1,23 @@
-.navigationRouterList {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+.hks {
+  &_navigationRouterList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 
-.navigationRouterListItem {
-  margin-bottom: 1rem;
-}
+  &_navigationRouterListItem {
+    margin-bottom: 1rem;
+  }
 
-.navRouterLink a:link,
-a:visited {
-  color: inherit;
-  text-decoration: none;
-}
+  &_navRouterLink a:link,
+  a:visited {
+    color: inherit;
+    text-decoration: none;
+  }
 
-.navRouterLink a:hover,
-a:active {
-  color: inherit;
-  text-decoration: underline;
+  &_navRouterLink a:hover,
+  a:active {
+    color: inherit;
+    text-decoration: underline;
+  }
 }

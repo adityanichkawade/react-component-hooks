@@ -3,7 +3,7 @@ import classNames from "classnames";
 
 const TabButton = ({ className, children, isActive, ...props }) => {
   const componentClassName = classNames(
-    "tabButton",
+    "hks_tabButton",
     { tabButtonActive: isActive },
     className
   );

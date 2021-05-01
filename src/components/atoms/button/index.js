@@ -1,7 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 const Button = ({ className, children, ...props }) => {
-  const componentClassName = classNames("btn", className);
+  const componentClassName = classNames("hks_btn", className);
   return (
     <button className={componentClassName} {...props}>
       {children}
