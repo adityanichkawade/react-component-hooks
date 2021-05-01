@@ -4,9 +4,9 @@ import { NavRouterLink } from "../../atoms";
 const NavRouter = ({ className, items }) => {
   return (
     <nav className={className}>
-      <ul className="navigationRouterList">
+      <ul className="hks_navigationRouterList">
         {items.map(({ id, path, title }) => (
-          <li className="navigationRouterListItem" key={id}>
+          <li className="hks_navigationRouterListItem" key={id}>
             <NavRouterLink to={path}>{title}</NavRouterLink>
           </li>
         ))}

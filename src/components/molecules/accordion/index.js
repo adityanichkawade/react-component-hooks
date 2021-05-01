@@ -3,7 +3,7 @@ import classNames from "classnames";
 import { AccordionButton, AccordionPanel } from "../../atoms";
 
 const Accordion = ({ className, onAccordionClick, items, ...props }) => {
-  const componentClassName = classNames("accordion", className);
+  const componentClassName = classNames("hks_accordion", className);
   return (
     <div className={componentClassName} {...props}>
       {items.map((item) => (
