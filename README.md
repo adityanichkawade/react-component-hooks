@@ -1,6 +1,7 @@
 # React components and hooks
 
 ## Overview
+
 <ul>
   <li>Created the project with aim to separate presentational components from hooks.</li>
   <li>Hooks will contain stateful logic and UI components are pure presentational stateless components.</li>
@@ -14,5 +15,5 @@
   <li>Trying to following <a href="https://bradfrost.com/blog/post/atomic-web-design/">Atomic Design</a> principles.</li>
   <li>Components are divided into <strong>atoms</strong>, <strong>molecules</strong>, <strong>organisms</strong>.</li>
   <li>Hooks are present in folder - <strong>src/hooks</strong>.</li>
-  <li>Examples of combining hooks and components are present in folder - <strong>src/examples</strong>.</li>
+  <li>Examples of combining hooks and components are present in folder - <strong>src/components/examples</strong>.</li>
 </ul>
