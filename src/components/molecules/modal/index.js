@@ -13,9 +13,7 @@ const Modal = ({ className, children, title, titleClose, onCloseClick }) => {
         <ModalHeader title={title} onCloseClick={onCloseClick} />
         <ModalBody>{children}</ModalBody>
         <ModalFooter>
-          <Button onClick={onCloseClick} className="hks_btn">
-            {titleClose}
-          </Button>
+          <Button onClick={onCloseClick}>{titleClose}</Button>
         </ModalFooter>
       </div>
     </section>
