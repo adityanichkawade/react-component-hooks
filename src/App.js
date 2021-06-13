@@ -3,13 +3,13 @@ import { Routes, config as routesConfig } from "./routes";
 
 const App = () => (
   <>
-    <header className="appHeader">
+    <header role="banner" className="hks_appHeader">
       <h1>Resuable hooks and their applications</h1>
     </header>
-    <aside className="appNav">
+    <aside className="hks_appNav">
       <NavRouter items={routesConfig} />
     </aside>
-    <main className="appMain">
+    <main role="main" className="hks_appMain">
       <Routes items={routesConfig}></Routes>
     </main>
   </>

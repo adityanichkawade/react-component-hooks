@@ -1,5 +1,5 @@
 import React from "react";
-import classNames from "";
+import classNames from "classnames";
 
 const Input = ({ className, ...props }) => {
   const componentClassName = classNames("hks_input", className);
